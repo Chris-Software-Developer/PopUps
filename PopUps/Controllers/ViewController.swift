@@ -14,11 +14,16 @@ class ViewController: UIViewController {
     
     @IBAction func alertButtonPressed(_ sender: UIButton) {
         let alert = UIAlertController(title: "My title", message: "My message", preferredStyle: .alert)
+        
+        alert.addTextField { (textField) in
+            textField.placeholder = "PLACEHOLDER"
+        }
+        
         let action1 = UIAlertAction(title: "My Action 1", style: .default) { (action) in
             print("THIS IS ACTION 1")
         }
         let action2 = UIAlertAction(title: "My Action 2", style: .cancel) { (action) in
-                print("THIS IS ACTION 2")
+            print("THIS IS ACTION 2")
         }
         let action3 = UIAlertAction(title: "My Action 3", style: .destructive) { (action) in
             print("DELETING ALL YOUR DATA")
@@ -43,6 +48,4 @@ class ViewController: UIViewController {
         sheet.addAction(action3)
         present(sheet, animated: true, completion: nil)
     }
-    
-    
 }
