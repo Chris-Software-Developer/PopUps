@@ -55,13 +55,37 @@
 			isa = PBXGroup;
 			children = (
 				0DAD8D731FC6204900FF6F84 /* AppDelegate.swift */,
-				0DAD8D751FC6204900FF6F84 /* ViewController.swift */,
-				0DAD8D771FC6204900FF6F84 /* Main.storyboard */,
-				0DAD8D7A1FC6204900FF6F84 /* Assets.xcassets */,
-				0DAD8D7C1FC6204900FF6F84 /* LaunchScreen.storyboard */,
+				0DAD8D871FC6207E00FF6F84 /* Models */,
+				0DAD8D881FC6208000FF6F84 /* Views */,
+				0DAD8D851FC6206F00FF6F84 /* Controllers */,
 				0DAD8D7F1FC6204900FF6F84 /* Info.plist */,
 			);
 			path = PopUps;
+			sourceTree = "<group>";
+		};
+		0DAD8D851FC6206F00FF6F84 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD8D751FC6204900FF6F84 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0DAD8D871FC6207E00FF6F84 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DAD8D881FC6208000FF6F84 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0DAD8D771FC6204900FF6F84 /* Main.storyboard */,
+				0DAD8D7C1FC6204900FF6F84 /* LaunchScreen.storyboard */,
+				0DAD8D7A1FC6204900FF6F84 /* Assets.xcassets */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DF9NTXN425;
 				INFOPLIST_FILE = PopUps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.Smith.PopUps;
@@ -289,6 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DF9NTXN425;
 				INFOPLIST_FILE = PopUps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chris.Smith.PopUps;
