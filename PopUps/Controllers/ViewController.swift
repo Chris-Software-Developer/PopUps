@@ -9,4 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: IBActions
+    
+    @IBAction func alertButtonPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func actionSheetButtonPressed(_ sender: UIButton) {
+    }
 }
