@@ -17,7 +17,11 @@ class ViewController: UIViewController {
         let action1 = UIAlertAction(title: "My Action 1", style: .default) { (action) in
             print("THIS IS ACTION 1")
         }
+        let action2 = UIAlertAction(title: "My Action 2", style: .default) { (action) in
+                print("THIS IS ACTION 2")
+        }
         alert.addAction(action1)
+        alert.addAction(action2)
         present(alert, animated: true, completion: nil)
     }
     
@@ -26,7 +30,11 @@ class ViewController: UIViewController {
         let action1 = UIAlertAction(title: "My Action 1", style: .default) { (action) in
             print("THIS IS ACTION 1")
         }
+        let action2 = UIAlertAction(title: "My Action 2", style: .default) { (action) in
+            print("THIS IS ACTION 2")
+        }
         sheet.addAction(action1)
+        sheet.addAction(action2)
         present(sheet, animated: true, completion: nil)
     }
     
